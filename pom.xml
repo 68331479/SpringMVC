@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>springmvc-01-servlet</module>
+        <module>springmvc-02-hellomvc</module>
     </modules>
 
     <!--依赖-->
@@ -27,7 +28,7 @@
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>servlet-api</artifactId>
-            <version>2.5</version>
+            <version>2.3</version>
         </dependency>
         <dependency>
             <groupId>javax.servlet.jsp</groupId>
