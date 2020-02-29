@@ -8,6 +8,7 @@
     <bean class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"/>
 
 
+
     <!--处理器适配器-->
     <bean class="org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter"/>
 

@@ -15,12 +15,12 @@ import javax.servlet.http.HttpServletResponse;
 
 
 @Controller
-@RequestMapping("/projecthello")
 public class HelloController{
 
     @RequestMapping("/hello")
     public String hello(Model model){
         //封装数据
+        System.out.println("debug=========>");
         model.addAttribute("msg","Hello,Annotation1");
         return "hello";// 会被视图解析器处理
     }
