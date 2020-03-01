@@ -34,6 +34,4 @@
         <property name="suffix" value=".jsp" />
     </bean>
 
-    <bean name="/t1" class="com.kuang.controller.ControllerTest1"></bean>
-
 </beans>

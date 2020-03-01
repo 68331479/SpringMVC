@@ -1,0 +1,33 @@
+package com.kuang.controller;
+
+import com.sun.deploy.net.HttpResponse;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+/**
+ * @Author: LDeng
+ * @Date: 2020-03-01 18:12
+ */
+@Controller
+public class ModelTest1 {
+
+    @RequestMapping("/m1/t1")
+    public String test(HttpServletRequest request, HttpServletResponse response){
+
+        HttpSession session = request.getSession();
+        System.out.println(session.getId());
+        return "test";
+    }
+
+
+    @RequestMapping("/m1/t2")
+    public String test2(HttpServletRequest request, HttpServletResponse response){
+        //重定向
+        return "redirect:/index.jsp";
+    }
+
+}
