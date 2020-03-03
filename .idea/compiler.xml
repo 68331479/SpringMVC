@@ -11,6 +11,7 @@
         <module name="springmvc-02-hellomvc2" />
         <module name="springmvc-03-anno" />
         <module name="springmvc-04-controller" />
+        <module name="springmvc-05-json" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -20,6 +21,7 @@
       <module name="springmvc-02-hellomvc2" target="1.8" />
       <module name="springmvc-03-anno" target="1.8" />
       <module name="springmvc-04-controller" target="1.8" />
+      <module name="springmvc-05-json" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
