@@ -1,10 +1,10 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="springmvc-05-json:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/springmvc_05_json_war_exploded</output-path>
+  <artifact type="exploded-war" name="springmvc-07-intercepter:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/springmvc_07_intercepter_war_exploded</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="springmvc-05-json" />
+          <element id="module-output" name="springmvc-07-intercepter" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.10.2" />
@@ -25,7 +25,7 @@
           <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.18.12" />
         </element>
       </element>
-      <element id="javaee-facet-resources" facet="springmvc-05-json/web/Web" />
+      <element id="javaee-facet-resources" facet="springmvc-07-intercepter/web/Web" />
     </root>
   </artifact>
 </component>
